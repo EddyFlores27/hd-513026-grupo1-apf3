@@ -1,0 +1,94 @@
+/* Estilos generales */
+.section-tres {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.section-tres-titulo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section-tres-parrafo {
+  font-size: 18px;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #555;
+}
+
+/* Contenedor de las tres cajas */
+.section-tres-cajas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Cada tarjeta */
+.section-tres-caja1,
+.section-tres-caja2,
+.section-tres-caja3 {
+  width: 25.5%;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.section-tres-caja1:hover,
+.section-tres-caja2:hover,
+.section-tres-caja3:hover {
+  transform: translateY(-5px);
+}
+
+/* Imagen dentro de cada tarjeta */
+.caja-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Título de cada tarjeta */
+.caja-titulo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Párrafo de cada tarjeta */
+.caja-parrafo {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
+
+/* Responsive para tablets */
+@media (min-width: 700px) and (max-width: 1116px) {
+  .section-tres-caja1,
+  .section-tres-caja2,
+  .section-tres-caja3 {
+    width: 45%;
+  }
+}
+
+/* Responsive para móviles */
+@media (max-width: 699px) {
+  .section-tres-caja1,
+  .section-tres-caja2,
+  .section-tres-caja3 {
+    width: 100%;
+  }
+
+  .section-tres-parrafo {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+}
