@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Veterinaria</title>
+    <link rel="stylesheet" href="contacto.css" />
+  </head>
+  <body>
+    <main>
+     <!-- inicia header -->
+    <header id="header">
+        <nav>
+          <h1>
+            <a href="#header">
+              <img
+                src="./static/image/logo2.png"
+                alt="logo-company"
+                class="logo-company"
+              />
+            </a>
+          </h1>
+          <div class="menu">
+            <a class="menu-item" href="index.html">Inicio</a>
+            <a class="menu-item" href="#About">Nosotros</a>
+            <a class="menu-item" href="#Service">Servicios</a>
+            <a class="menu-item" href="contacto.html">Contacto</a> <!-- Aquí el cambio -->
+            <input type="text" class="input-menu" placeholder="Buscar.." />
+            <div class="button-menu">
+              <a class="button-menu" href="">
+                <img
+                  src="./static/image/lupa-blanca.png"
+                  alt="lupa"
+                  class="lupa-button"
+                />
+              </a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- termina header -->
+
+      <!-- Sección de contacto -->
+      <section class="section-contacto-nuevo">
+        <div class="contenedor-form-imagen">
+          <div class="formulario-lado">
+            <h2 class="titulo-contacto">¿Tienes alguna consulta?</h2>
+            <p class="parrafo-contacto">
+              Completa el formulario o comunícate con nosotros por nuestras redes. Estamos felices de ayudarte.
+            </p>
+      
+            <form class="formulario-contacto">
+              <div class="grupo-formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required />
+              </div>
+      
+              <div class="grupo-formulario">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" />
+              </div>
+      
+              <div class="grupo-formulario">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+      
+              <div class="grupo-formulario">
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" />
+              </div>
+      
+              <div class="grupo-formulario">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+              </div>
+      
+              <button type="submit" class="boton-enviar">Enviar</button>
+            </form>
+          </div>
+      
+          <div class="imagen-lado">
+            <img src="./static/image/logo.png" alt="Mascota" class="imagen-contacto" />
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- footer -->
+    <footer>
+        <div class="about">
+          <h2 class="titulo">Nosotros</h2>
+          <p class="about-item">Historia</p>
+          <p class="about-item">Nuestro Equipo</p>
+          <p class="about-item">Terminos & Condiciones</p>
+        
+        </div>
+       
+        <div class="services">
+          
+        <h2 class="titulo">Services</h2>
+        <p class=" services-item">Como ordenar</p>
+        <p class="services-item">Nuestros Productos</p>
+        <p class="services-item">Metodos de pago</p>
+        </div>
+
+        <div class="contact">
+          <h2 class="titulo">¡Suscribete!</h2>
+          <p class="parrafo-contact">Para que te llegue nuestras promos</p>  
+
+          <div class="contenedor-buscar">
+            <div class="contenedot-input">
+              <input type="text" class="input-footer">
+            </div>
+            
+            <div class="contenedor-button">
+                <!-- <a class="button-footer" href="" -->
+                <img
+                  src="./static/image/icon-enviar.png"
+                  alt="lupa"
+                  class="enviar-button"
+              />
+            </div>
+
+          </div>
+          
+         
+          <div class="footer-redes-sociales">
+             <img class="foooter-instagram" src="./static/image/Instagram-footer.png" alt="icono instagram">
+             <img  class="footer-facebook"src="./static/image/Facebook-footer.png" alt="icono facebook">
+            <img class="footertwitter" src="./static/image/Twitter-footer.png" alt="icono facebook">
+             <img class="footer-whatsapp" src="./static/image/WhatsApp-footer.png" alt="icono whatsapp">
+          </div>
+        </div>
+        
+
+      </footer>
+      <!-- footer -->
+    </main>
+  </body>
+</html>

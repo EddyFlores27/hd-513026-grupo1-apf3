@@ -1,0 +1,86 @@
+.section-cinco {
+  background-color: #ffc400;
+  padding: 50px 0;
+}
+
+.section-cinco-titulo,
+.section-cinco-parrafo {
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.3;
+}
+
+.section-cinco-titulo {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.section-cinco-parrafo {
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+
+.section-cinco-cajas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.section-cinco-caja {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-cinco-caja img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.precio {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px 0 10px;
+}
+
+.precio-tachado {
+  text-decoration: line-through;
+  padding: 0 10px;
+  color: #fff;
+}
+
+.button-caja {
+  background-color: #00bfcb;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.button-caja:hover {
+  background-color: #ffffff;
+  color: #00bfcb;
+}
+
+/* Responsivo para móviles */
+@media (max-width: 700px) {
+  .section-cinco-caja {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+}
+
+/* Responsivo para tablets */
+@media (min-width: 701px) and (max-width: 1116px) {
+  .section-cinco-caja {
+    width: 40%;
+  }
+}
